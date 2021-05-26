@@ -2,7 +2,7 @@
 
 \begin{figure*}[ht]
     \centering
-    \includegraphics[width=\textwidth]{figs/NumConvars.pdf}
+    \includegraphics[width=\textwidth]{figs/NumConVars.pdf}
     \caption{Swarm plots for the proportion of optimal actions for the two bandit types. Each point represents results from one trial with 250 students. For the universal optimal action, all scenarios show similar results; hence only scenario (1) is shown. The decreased performance of the contextual bandits in the baseline and universal optimal action scenarios, especially for large number of contextual variables, highlights the potential risks of personalization.}
     \label{fig:NumConVars}
 \end{figure*}
@@ -12,12 +12,12 @@
 \toprule
 {} & Superior bandit &  $|b|$ &         95\% CI &  $F(1, 13996)$ &       $p$ &  Cohen's $d$ \\
 \midrule
-Baseline     &  Non Contextual &  0.098 &  [0.089, 0.108] &         2678.0 &  $< .001$ &        0.871 \\
-Universal optimal action (1) &  Non Contextual &  0.088 &  [0.079, 0.097] &         2750.0 &  $< .001$ &        0.880 \\
-Universal optimal action (2) &  Non Contextual &  0.078 &  [0.072, 0.085] &         3853.0 &  $< .001$ &        1.042 \\
-Universal optimal action (3) &  Non Contextual &  0.101 &   [0.092, 0.11] &         2891.0 &  $< .001$ &        0.904 \\
-Universal optimal action (4) &  Non Contextual &  0.074 &  [0.063, 0.085] &         1865.0 &  $< .001$ &        0.725 \\
-Personalized optimal action       &      Contextual &  0.295 &  [0.287, 0.302] &        10816.0 &  $< .001$ &        1.677 \\
+Baseline                     &  Non Contextual &  0.058 &  [0.052, 0.064] &       6308.000 &  $< .001$ &        1.279 \\
+Universal Optimal Action (1) &  Non Contextual &  0.054 &   [0.048, 0.06] &       6333.000 &  $< .001$ &        1.278 \\
+Universal Optimal Action (2) &  Non Contextual &  0.051 &  [0.048, 0.054] &      15762.000 &  $< .001$ &        1.892 \\
+Universal Optimal Action (3) &  Non Contextual &  0.053 &   [0.047, 0.06] &       5918.000 &  $< .001$ &        1.240 \\
+Universal Optimal Action (4) &  Non Contextual &  0.057 &  [0.049, 0.065] &       3180.000 &  $< .001$ &        0.927 \\
+Personalized Optimal Action  &      Contextual &  0.272 &  [0.269, 0.276] &      34180.000 &  $< .001$ &        2.610 \\
 \bottomrule
 \end{tabular*}
 
